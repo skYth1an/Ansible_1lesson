@@ -1,5 +1,7 @@
 ---
 clickhouse_version: "22.3.3.44"
+vector_version: "0.21.2"
+vector_home: "/opt/vector/bin"
 clickhouse_packages:
   - clickhouse-client
   - clickhouse-server
