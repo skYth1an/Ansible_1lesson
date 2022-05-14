@@ -1,5 +1,5 @@
 ---
-- name: Install Clickhouse
+- name: Install Clickhouse/Lighthouse/Vector
   hosts: clickhouse
   handlers:
     - name: Start clickhouse service
@@ -7,7 +7,10 @@
       ansible.builtin.service:
         name: clickhouse-server
         state: restarted
-
+    - name: Restart Nginx
+      ansible.builtin.service:
+        name: nginx
+        state: restarted
   tasks:
     - block:
         - name: Get clickhouse distrib
@@ -31,11 +34,11 @@
     - name: flush_handlers
       meta: flush_handlers
     - name: Create database
+      notify: Start clickhouse service
       ansible.builtin.command: "clickhouse-client -q 'create database logs;'"
       register: create_db
       failed_when: create_db.rc != 0 and create_db.rc !=82
       changed_when: create_db.rc == 0
-
     - name: Create folder for Vector
       become: true
       file:
@@ -49,7 +52,7 @@
         rm -fR ~/click*
         rm -fR ~/vector*
         rm -fR /opt/vector/*
-    - name: Download Vector achive version {{ vector_version }}
+    - name: Download Vector achive
       become: true
       ansible.builtin.get_url: 
         url: "https://packages.timber.io/vector/{{ vector_version }}/vector-{{ vector_version }}-x86_64-unknown-linux-musl.tar.gz"
@@ -77,4 +80,95 @@
         systemctl daemon-reload
         systemctl start vector.service
 
+- name: Install Vector Main
+  hosts: vector
+  handlers:
+    - name: Start clickhouse service
+      become: true
+      ansible.builtin.service:
+        name: clickhouse-server
+        state: restarted
+    - name: Restart Nginx
+      ansible.builtin.service:
+        name: nginx
+        state: restarted
+  tasks:
+    - name: Create folder for Vector
+      become: true
+      file:
+        state: directory
+        path: "/opt/vector"
+        mode: 0755
+    - name: Clear directory
+      become: true
+      shell: |
+        rm -fR /tmp/*
+        rm -fR ~/click*
+        rm -fR ~/vector*
+        rm -fR /opt/vector/*
+    - name: Download Vector achive version {{ vector_version }}
+      become: true
+      ansible.builtin.get_url:
+        url: "https://packages.timber.io/vector/{{ vector_version }}/vector-{{ vector_version }}-x86_64-unknown-linux-musl.tar.gz"
+        dest: "~/"
+        mode: 0755
+    - name: Extract vector and start
+      become: true
+      unarchive:
+          copy: false
+          src: "~/vector-{{ vector_version }}-x86_64-unknown-linux-musl.tar.gz"
+          dest: "/opt/vector"
+          extra_opts: [--strip-components=2]
+          mode: 0755
+    - name: Set environment vector
+      become: true
+      template:
+          src: templates/vec.sh.j2
+          dest: /etc/profile.d/vec.sh
+    - name: Start Vector
+      become: true
+      shell: |
+        echo -e "[Service]\n \
+        ExecStart=/opt/vector/bin/vector --config /opt/vector/config/vector.toml\n \
+        Restart=always" > /etc/systemd/system/vector.service
+        systemctl daemon-reload
+        systemctl start vector.service
+
+- name: Install Lighthouse
+  hosts: lighthouse
+  handlers:
+    - name: Start clickhouse service
+      become: true
+      ansible.builtin.service:
+        name: clickhouse-server
+        state: restarted
+    - name: Restart Nginx
+      ansible.builtin.service:
+        name: nginx
+        state: restarted
+  tasks:
+    - name: Install Nginx/Git/Update repo
+      become: true
+      yum:
+        name:
+          - epel-release
+          - nginx
+          - git
+        state: latest
+        update_cache: yes
+    - name: Copy nginx conf
+      become: true
+      template:
+          src: templates/nginx.conf.j2
+          dest: /etc/nginx/nginx.conf
+    - name: Clone Repo Lighthouse
+      become: true
+      ansible.builtin.git:
+        repo: 'https://github.com/VKCOM/lighthouse.git'
+        dest: /usr/lighthouse
+    - name: Restart Nginx
+      become: true
+      ansible.builtin.service:
+        name: nginx
+        state: restarted
 
