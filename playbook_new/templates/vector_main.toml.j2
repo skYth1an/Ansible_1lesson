@@ -1,9 +1,4 @@
-[sources.Clickhouse]
-type = "vector"
-address = "51.250.90.50:9000"
-version = "1"
-
-[sources.lighthouse]
+[sources.vector-main]
 type = "vector"
 address = "51.250.90.50:9000"
 version = "1"
@@ -11,16 +6,16 @@ version = "1"
 
 [sinks.Clickhouse-sink]
 type = "clickhouse"
-inputs = [ "Clickhouse" ]
+inputs = [ "vector-main" ]
 database = "mydatabase"
-endpoint = "http://51.250.3.225:8123"
+endpoint = "http://51.250.87.130/"
 table = "mytable"
 compression = "gzip"
 
 [sinks.lighthouse-sink]
 type = "clickhouse"
-inputs = [ "lighthouse" ]
+inputs = [ "vector-main" ]
 database = "mydatabase"
-endpoint = "http://51.250.3.225:8123"
+endpoint = "http://51.250.87.130/"
 table = "mytable"
 compression = "gzip"
