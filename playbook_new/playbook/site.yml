@@ -1,5 +1,5 @@
 ---
-- name: Install Clickhouse/Lighthouse/Vector
+- name: Install Clickhouse
   hosts: clickhouse
   handlers:
     - name: Start clickhouse service
