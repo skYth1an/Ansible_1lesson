@@ -10,6 +10,6 @@
 ##### Скриншоты  
 
 
-![1](https://github.com/skYth1an/Ansible_1lesson/blob/4f5d8e4ab40e76277770e2c19a90cf8c48da0acd/images/1.PNG "1")
-![2](https://github.com/skYth1an/Ansible_1lesson/blob/4f5d8e4ab40e76277770e2c19a90cf8c48da0acd/images/2.PNG "2")
-![3](https://github.com/skYth1an/Ansible_1lesson/blob/4f5d8e4ab40e76277770e2c19a90cf8c48da0acd/images/3.PNG "3")
+![1](https://github.com/skYth1an/Ansible_1lesson/blob/0592a81564da3f7387d8b5c078a81651e9499df6/images/1.PNG "1")
+![2](https://github.com/skYth1an/Ansible_1lesson/blob/0592a81564da3f7387d8b5c078a81651e9499df6/images/2.PNG "2")
+![3](https://github.com/skYth1an/Ansible_1lesson/blob/0592a81564da3f7387d8b5c078a81651e9499df6/images/3.PNG "3")
