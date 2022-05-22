@@ -16,6 +16,6 @@
 
 #### Скриншоты установки с помощью ролей
 
-![1](https://github.com/skYth1an/Ansible_1lesson/blob/0592a81564da3f7387d8b5c078a81651e9499df6/images/1.PNG "1")
-![2](https://github.com/skYth1an/Ansible_1lesson/blob/0592a81564da3f7387d8b5c078a81651e9499df6/images/2.PNG "2")
-![3](https://github.com/skYth1an/Ansible_1lesson/blob/0592a81564da3f7387d8b5c078a81651e9499df6/images/3.PNG "3")
+![1](https://github.com/skYth1an/Ansible_1lesson/blob/main/images/1.PNG "1")
+![2](https://github.com/skYth1an/Ansible_1lesson/blob/main/images/2.PNG "2")
+![3](https://github.com/skYth1an/Ansible_1lesson/blob/main/images/3.PNG "3")
