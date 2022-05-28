@@ -5,6 +5,12 @@
     state: directory
     path: "/opt/vector"
     mode: 0755
+- name: Create folder for Vector data
+  become: true
+  file:
+    state: directory
+    path: "/var/lib/vector"
+    mode: 0755
 - name: Download Vector achive
   become: true
   ansible.builtin.get_url:

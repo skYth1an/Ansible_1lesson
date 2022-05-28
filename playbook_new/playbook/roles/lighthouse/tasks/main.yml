@@ -1,0 +1,7 @@
+---
+- name: Clone Repo Lighthouse
+  become: true
+  ansible.builtin.git:
+    repo: 'https://github.com/VKCOM/lighthouse.git'
+    dest: /usr/lighthouse
+  notify: Restart Nginx

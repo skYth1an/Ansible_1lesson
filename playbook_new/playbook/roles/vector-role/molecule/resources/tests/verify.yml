@@ -1,0 +1,17 @@
+---
+- name: Verify
+  hosts: all
+  become: true
+  gather_facts: true
+  tasks:
+    - name: 'Print all available facts'
+      debug:
+        var: ansible_facts
+    - name: 'Run a command'
+      command: vector --version
+      register: version
+    - name: 'Print version'
+      debug:
+        msg: "vector version : {{ version.stdout }}"
+      
+
