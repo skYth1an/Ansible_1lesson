@@ -5,7 +5,7 @@ driver:
   name: docker
   options:
     D: true
-    vv: true
+    vv: false
 lint: |
   yamllint .
   ansible-lint
@@ -48,3 +48,9 @@ verifier:
   name: ansible
   playbooks:
     verify: ../resources/tests/verify.yml
+scenario:
+  test_sequence:
+    - destroy
+    - create
+    - converge
+    - verify
