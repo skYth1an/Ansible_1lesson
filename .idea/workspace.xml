@@ -2,7 +2,148 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ce45d41-9bc3-4fbd-8327-c1a92fbabc7c" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/images/0.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/5.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/playbook_new/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/molecule/ubuntu/verify.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/resources/inventory/host_vars/.keep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/1.jpeg.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2.jpeg.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook/README_P.md" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook/README_P.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook/group_vars/all/vars.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook/group_vars/all/vars.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook/group_vars/elasticsearch/vars.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook/group_vars/elasticsearch/vars.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook/inventory/prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook/inventory/prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook/pass.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook/pass.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook/site.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook/site.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook/templates/elk.sh.j2" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook/templates/elk.sh.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook/templates/jdk.sh.j2" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook/templates/jdk.sh.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook/templates/kib.sh.j2" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook/templates/kib.sh.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/group_vars/clickhouse/vars.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/group_vars/clickhouse/vars.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/group_vars/lighthouse/vars.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/group_vars/lighthouse/vars.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/group_vars/vector/vars.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/group_vars/vector/vars.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/inventory/prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/inventory/prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/requirements.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/requirements.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/.github/stale.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/.github/stale.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/.yamllint" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/.yamllint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/handlers/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/handlers/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/meta/.galaxy_install_info" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/meta/.galaxy_install_info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/meta/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/meta/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/centos_7/converge.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/centos_7/converge.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/centos_7/molecule.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/centos_7/molecule.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/centos_7/ubuntu_bionic/molecule.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/centos_7/ubuntu_bionic/molecule.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/centos_7/verify.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/centos_7/verify.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/centos_8/converge.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/centos_8/converge.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/centos_8/molecule.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/centos_8/molecule.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/centos_8/ubuntu_bionic/molecule.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/centos_8/ubuntu_bionic/molecule.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/centos_8/verify.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/centos_8/verify.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/debian_bullseye/molecule.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/debian_bullseye/molecule.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/debian_buster/molecule.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/debian_buster/molecule.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/debian_jessie/molecule.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/debian_jessie/molecule.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/debian_stretch/molecule.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/debian_stretch/molecule.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/resources/Dockerfile.j2" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/resources/Dockerfile.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/resources/Dockerfile_jessie.j2" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/resources/Dockerfile_jessie.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/resources/inventory/group_vars/all.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/resources/inventory/group_vars/all.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/resources/inventory/host_vars/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/resources/inventory/hosts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/resources/inventory/hosts.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/resources/playbooks/converge.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/resources/playbooks/converge.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/resources/tests/verify.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/resources/tests/verify.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/ubuntu_bionic/molecule.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/ubuntu_bionic/molecule.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/ubuntu_focal/converge.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/ubuntu_focal/converge.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/ubuntu_focal/molecule.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/ubuntu_focal/molecule.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/ubuntu_focal/verify.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/ubuntu_focal/verify.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/molecule/ubuntu_xenial/molecule.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/ubuntu_xenial/molecule.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/requirements-test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/requirements-test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/tasks/configure/db.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/tasks/configure/db.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/tasks/configure/dict.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/tasks/configure/dict.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/tasks/configure/sys.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/tasks/configure/sys.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/tasks/empty.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/tasks/empty.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/tasks/install/apt.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/tasks/install/apt.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/tasks/install/dnf.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/tasks/install/dnf.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/tasks/install/yum.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/tasks/install/yum.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/tasks/params.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/tasks/params.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/tasks/precheck.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/tasks/precheck.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/tasks/remove.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/tasks/remove.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/tasks/remove/apt.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/tasks/remove/apt.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/tasks/remove/dnf.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/tasks/remove/dnf.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/tasks/remove/yum.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/tasks/remove/yum.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/tasks/service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/tasks/service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/templates/config.j2" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/templates/config.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/templates/dicts.j2" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/templates/dicts.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/templates/macros.j2" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/templates/macros.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/templates/remote_servers.j2" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/templates/remote_servers.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/templates/users.j2" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/templates/users.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/templates/zookeeper-servers.j2" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/templates/zookeeper-servers.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/vars/debian.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/vars/debian.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/vars/empty.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/vars/empty.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/clickhouse/vars/redhat.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/vars/redhat.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/lighthouse/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/lighthouse/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/lighthouse/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/lighthouse/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/lighthouse/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/lighthouse/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/lighthouse/handlers/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/lighthouse/handlers/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/lighthouse/lighthouse/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/lighthouse/lighthouse/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/lighthouse/meta/.galaxy_install_info" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/lighthouse/meta/.galaxy_install_info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/lighthouse/meta/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/lighthouse/meta/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/lighthouse/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/lighthouse/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/lighthouse/templates/nginx.conf.j2" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/lighthouse/templates/nginx.conf.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/lighthouse/tests/inventory" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/lighthouse/tests/inventory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/lighthouse/tests/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/lighthouse/tests/test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/lighthouse/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/lighthouse/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/.yamllint" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/.yamllint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/handlers/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/handlers/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/meta/.galaxy_install_info" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/meta/.galaxy_install_info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/meta/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/meta/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/molecule/centos/converge.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/molecule/centos/converge.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/molecule/centos/molecule.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/molecule/centos/molecule.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/molecule/centos/ubuntu_bionic/molecule.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/molecule/centos/ubuntu_bionic/molecule.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/molecule/centos/verify.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/molecule/centos/verify.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/molecule/default/converge.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/molecule/default/converge.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/molecule/default/molecule.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/molecule/default/molecule.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/molecule/default/verify.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/molecule/default/verify.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/molecule/resources/Dockerfile.j2" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/molecule/resources/Dockerfile.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/molecule/resources/Dockerfile_jessie.j2" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/molecule/resources/Dockerfile_jessie.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/molecule/resources/inventory/group_vars/all.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/molecule/resources/inventory/group_vars/all.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/molecule/resources/inventory/host_vars/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/clickhouse/molecule/resources/inventory/host_vars/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/molecule/resources/inventory/hosts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/molecule/resources/inventory/hosts.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/molecule/resources/playbooks/converge.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/molecule/resources/playbooks/converge.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/molecule/resources/tests/verify.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/molecule/resources/tests/verify.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/molecule/ubuntu/converge.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/molecule/ubuntu/converge.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/molecule/ubuntu/molecule.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/molecule/ubuntu/molecule.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/molecule/ubuntu/verify.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/resources/Dockerfile.j2" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/resources/Dockerfile.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/resources/Dockerfile_jessie.j2" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/resources/Dockerfile_jessie.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/resources/inventory/group_vars/all.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/resources/inventory/group_vars/all.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/resources/inventory/host_vars/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/molecule/resources/inventory/host_vars/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/resources/inventory/hosts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/resources/inventory/hosts.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/resources/playbooks/converge.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/resources/playbooks/converge.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/resources/tests/verify.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/resources/tests/verify.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/templates/vec.sh.j2" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/templates/vec.sh.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/templates/vec_main.sh.j2" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/templates/vec_main.sh.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/templates/vector.toml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/templates/vector.toml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/templates/vector_main.toml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/templates/vector_main.toml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/tests/inventory" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/tests/inventory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/tests/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/tests/test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/tox-requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/tox-requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/tox.ini" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/tox.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/roles/vector-role/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/roles/vector-role/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/site.yml" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/site.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_new/playbook/templates/nginx.conf.j2" beforeDir="false" afterPath="$PROJECT_DIR$/old/playbook_new/playbook/templates/nginx.conf.j2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,29 +171,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PSINAZINA/Desktop/REPO/lighthouse-role&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Users/PSINAZINA/Desktop/REPO/ansible&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/PSINAZINA/Desktop/REPO/ansible",
+    "settings.editor.selected.configurable": "terminal",
+    "two.files.diff.last.used.folder": "C:/Users/PSINAZINA/Desktop/REPO/ansible"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PSINAZINA\Desktop\REPO\ansible\playbook_new\playbook\roles\vector-role\molecule\ubuntu" />
       <recent name="C:\Users\PSINAZINA\Desktop\REPO\ansible\playbook_new\playbook\roles" />
       <recent name="C:\Users\PSINAZINA\Desktop\REPO\ansible\playbook_new\playbook\templates" />
       <recent name="C:\Users\PSINAZINA\Desktop\REPO\ansible\playbook_new\templates" />
       <recent name="C:\Users\PSINAZINA\Desktop\REPO\ansible\playbook_new\playbook\group_vars\lighthouse" />
-      <recent name="C:\Users\PSINAZINA\Desktop\REPO\ansible\playbook" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PSINAZINA\Desktop\REPO\ansible\old" />
+      <recent name="C:\Users\PSINAZINA\Desktop\REPO\ansible\images" />
       <recent name="C:\Users\PSINAZINA\Desktop\REPO\ansible\playbook_new\playbook\roles\lighthouse\templates" />
       <recent name="C:\Users\PSINAZINA\Desktop\REPO\ansible\playbook_new\playbook\roles\vector-role\templates" />
       <recent name="C:\Users\PSINAZINA\Desktop\REPO\ansible\playbook" />
-      <recent name="C:\Users\PSINAZINA\Desktop\REPO\ansible\playbook_new" />
-      <recent name="C:\Users\PSINAZINA\Desktop\REPO\ansible\playbook_new\playbook\group_vars\vector" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -169,7 +310,49 @@
       <option name="project" value="LOCAL" />
       <updated>1653758129553</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="commit">
+      <created>1653758335790</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1653758335790</updated>
+    </task>
+    <task id="LOCAL-00017" summary="commit">
+      <created>1653758351535</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1653758351535</updated>
+    </task>
+    <task id="LOCAL-00018" summary="commit">
+      <created>1653758390077</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1653758390077</updated>
+    </task>
+    <task id="LOCAL-00019" summary="commit">
+      <created>1653758451488</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1653758451488</updated>
+    </task>
+    <task id="LOCAL-00020" summary="commit">
+      <created>1653758480870</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1653758480870</updated>
+    </task>
+    <task id="LOCAL-00021" summary="commit">
+      <created>1653758650319</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1653758650319</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
