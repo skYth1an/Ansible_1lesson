@@ -3,8 +3,8 @@
 
 
 ![0](https://github.com/skYth1an/Ansible_1lesson/blob/352a7309060d83071983ed42ae94a4740e872bc0/images/0.JPG "0")
-![1](https://github.com/skYth1an/Ansible_1lesson/blob/352a7309060d83071983ed42ae94a4740e872bc0/images/1.jpeg.PNG "1")
-![2](https://github.com/skYth1an/Ansible_1lesson/blob/352a7309060d83071983ed42ae94a4740e872bc0/images/2.jpeg.PNG "2")
+![1](https://github.com/skYth1an/Ansible_1lesson/blob/649bc24c384fddeb276207eaeb33cb33e6e6dad3/images/1.JPG "1")
+![2](https://github.com/skYth1an/Ansible_1lesson/blob/649bc24c384fddeb276207eaeb33cb33e6e6dad3/images/2.JPG "2")
 
 ## Nexus
 
@@ -56,5 +56,5 @@
 
 ```  
 
-![5](https://github.com/skYth1an/Ansible_1lesson/blob/352a7309060d83071983ed42ae94a4740e872bc0/images/5.jpeg.PNG "1")
+![5](https://github.com/skYth1an/Ansible_1lesson/blob/649bc24c384fddeb276207eaeb33cb33e6e6dad3/images/5.JPG "1")
 
