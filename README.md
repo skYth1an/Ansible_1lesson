@@ -2,9 +2,9 @@
 #### Скриншоты
 
 
-![0](https://github.com/skYth1an/Ansible_1lesson/blob/9a4193be8e8e084cd6a5056c7b97fbe602c5e40c/images/0.jpeg.PNG "1")
-![1](https://github.com/skYth1an/Ansible_1lesson/blob/9a4193be8e8e084cd6a5056c7b97fbe602c5e40c/images/1.jpeg.PNG "2")
-![2](https://github.com/skYth1an/Ansible_1lesson/blob/9a4193be8e8e084cd6a5056c7b97fbe602c5e40c/images/2.jpeg.PNG "2")
+![0](https://github.com/skYth1an/Ansible_1lesson/blob/352a7309060d83071983ed42ae94a4740e872bc0/images/0.JPG "0")
+![1](https://github.com/skYth1an/Ansible_1lesson/blob/352a7309060d83071983ed42ae94a4740e872bc0/images/1.jpeg.PNG "1")
+![2](https://github.com/skYth1an/Ansible_1lesson/blob/352a7309060d83071983ed42ae94a4740e872bc0/images/2.jpeg.PNG "2")
 
 ## Nexus
 
@@ -23,7 +23,7 @@
 </versioning>
 </metadata>
 ```
-![4](https://github.com/skYth1an/Ansible_1lesson/blob/9a4193be8e8e084cd6a5056c7b97fbe602c5e40c/images/4.jpeg.PNG "1")
+![4](https://github.com/skYth1an/Ansible_1lesson/blob/352a7309060d83071983ed42ae94a4740e872bc0/images/4.jpeg.PNG "1")
 
 
 ### Maven
@@ -56,5 +56,5 @@
 
 ```  
 
-![5](https://github.com/skYth1an/Ansible_1lesson/blob/9a4193be8e8e084cd6a5056c7b97fbe602c5e40c/images/5.jpeg.PNG "1")
+![5](https://github.com/skYth1an/Ansible_1lesson/blob/352a7309060d83071983ed42ae94a4740e872bc0/images/5.jpeg.PNG "1")
 
