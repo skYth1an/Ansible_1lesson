@@ -23,7 +23,7 @@
 </versioning>
 </metadata>
 ```
-![4](https://github.com/skYth1an/Ansible_1lesson/blob/352a7309060d83071983ed42ae94a4740e872bc0/images/4.jpeg.PNG "1")
+![4](https://github.com/skYth1an/Ansible_1lesson/blob/649bc24c384fddeb276207eaeb33cb33e6e6dad3/images/4.JPG "1")
 
 
 ### Maven
