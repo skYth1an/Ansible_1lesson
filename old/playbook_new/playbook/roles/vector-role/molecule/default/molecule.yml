@@ -11,3 +11,8 @@ provisioner:
   name: ansible
 verifier:
   name: ansible
+scenario:
+  create_sequence:
+    - destroy
+    - create
+    - converge
