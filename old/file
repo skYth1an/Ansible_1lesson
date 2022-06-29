@@ -1,0 +1,21 @@
+pipeline {
+agent {
+  any
+  
+  stages {
+  stage('Get from Git') {
+  steps {
+    git branch: 'main', credentialsId: 'git', url: 'git@github.com:skYth1an/Ansible_1lesson.git'
+  }
+  stage('Test Role') {
+  steps {
+        sh 'pip3 install "molecule==3.4.0"'
+        sh 'python3 -m pip install --user "molecule[docker]"'
+        sh 'cd old/playbook_new/playbook/roles/vector-role'
+        sh 'molecule test'
+  }
+}
+}
+}
+}
+}

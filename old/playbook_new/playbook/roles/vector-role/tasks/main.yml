@@ -37,8 +37,8 @@
       dest: /opt/vector/config/vector.toml
 - name: Start Vector
   become: true
-  shell: |
-    /opt/vector/bin/vector --config /opt/vector/config/vector.toml
+  shell:
+      cmd: '/opt/vector/bin/vector --config /opt/vector/config/vector.toml'
 #- name: Start Vector
 #  become: true
 #  shell: |
