@@ -38,8 +38,12 @@
 - name: Start Vector
   become: true
   shell: |
-    echo -e "[Service]\n \
-    ExecStart=/opt/vector/bin/vector --config /opt/vector/config/vector.toml\n \
-    Restart=always" > /etc/systemd/system/vector.service
-    systemctl daemon-reload
-    systemctl start vector.service
+    ExecStart=/opt/vector/bin/vector --config /opt/vector/config/vector.toml\n
+#- name: Start Vector
+#  become: true
+#  shell: |
+#    echo -e "[Service]\n \
+#    ExecStart=/opt/vector/bin/vector --config /opt/vector/config/vector.toml\n \
+#    Restart=always" > /etc/systemd/system/vector.service
+#    systemctl daemon-reload
+#    systemctl start vector.service
