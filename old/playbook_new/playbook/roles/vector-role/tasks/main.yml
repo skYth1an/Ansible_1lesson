@@ -35,15 +35,15 @@
   template:
       src: templates/vector.toml.j2
       dest: /opt/vector/config/vector.toml
-- name: Start Vector
-  become: true
-  shell:
-      cmd: '/opt/vector/bin/vector --config /opt/vector/config/vector.toml'
 #- name: Start Vector
 #  become: true
-#  shell: |
-#    echo -e "[Service]\n \
-#    ExecStart=/opt/vector/bin/vector --config /opt/vector/config/vector.toml\n \
-#    Restart=always" > /etc/systemd/system/vector.service
-#    systemctl daemon-reload
-#    systemctl start vector.service
+#  shell:
+#      cmd: '/opt/vector/bin/vector --config /opt/vector/config/vector.toml'
+##- name: Start Vector
+##  become: true
+##  shell: |
+##    echo -e "[Service]\n \
+##    ExecStart=/opt/vector/bin/vector --config /opt/vector/config/vector.toml\n \
+##    Restart=always" > /etc/systemd/system/vector.service
+##    systemctl daemon-reload
+##    systemctl start vector.service
