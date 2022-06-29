@@ -38,7 +38,7 @@
 - name: Start Vector
   become: true
   shell: |
-    ExecStart=/opt/vector/bin/vector --config /opt/vector/config/vector.toml\n
+    /opt/vector/bin/vector --config /opt/vector/config/vector.toml
 #- name: Start Vector
 #  become: true
 #  shell: |
