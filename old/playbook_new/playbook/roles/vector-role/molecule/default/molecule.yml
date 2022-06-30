@@ -12,10 +12,10 @@ provisioner:
 verifier:
   name: ansible
 scenario:
-  create_sequence:
+  test_sequence:
     - destroy
     - create
     - converge
-    - dependency
-    - cleanup
-    - destroy
+    # - idempotence
+    - lint
+    - verify
