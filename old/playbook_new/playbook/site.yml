@@ -1,6 +1,6 @@
 ---
 - name: Pre_tasks
-  hosts: lighthouse
+  hosts: clickhouse
   become: true
   pre_tasks:
     - name: Install Nginx/Git/Update repo
