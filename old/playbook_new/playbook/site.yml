@@ -23,13 +23,13 @@
   roles:
     - clickhouse
 
-- name: install vector
-  hosts: vector
-  roles:
-    - vector-role
-
-- name: install Lighthouse
-  hosts: lighthouse
-  roles:
-    - lighthouse
+#- name: install vector
+#  hosts: vector
+#  roles:
+#    - vector-role
+#
+#- name: install Lighthouse
+#  hosts: lighthouse
+#  roles:
+#    - lighthouse
 

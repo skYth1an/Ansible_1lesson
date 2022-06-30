@@ -1,7 +1,7 @@
 ---
 clickhouse:
   hosts:
-    51.250.3.225:
+    51.250.67.70:
       ansible_connection: ssh
       ansible_user: igor
 vector:
@@ -14,3 +14,4 @@ lighthouse:
     51.250.87.130:
       ansible_connection: ssh
       ansible_user: igor
+
