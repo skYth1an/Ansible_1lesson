@@ -18,4 +18,4 @@ scenario:
     - converge
     # - idempotence
     - lint
-    - verify
+    #- verify
