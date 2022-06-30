@@ -1,7 +1,7 @@
 ---
 clickhouse:
   hosts:
-    51.250.67.70:
+    51.250.95.49:
       ansible_connection: ssh
       ansible_user: igor
 vector:
